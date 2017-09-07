@@ -27,7 +27,7 @@ while choice == "Y":
     heads = 0
     tails = 0
     i=1
-    for flip in range(0,10):      
+    for flip in range(0,5000):      
         flip = random.randint(0,1)
         if flip == 0:
             heads = heads + 1
